@@ -20,4 +20,4 @@ suites:
   - name: default
 
 verifier:
-  ruby_bindir: /usr/bin
+  ruby_bindir: '/usr/bin'
