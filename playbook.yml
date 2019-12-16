@@ -5,6 +5,7 @@
     - apt:
         name: nginx
         state: present
-    - service:
+    - service: 
         name: nginx
-        state: restarted
+        enabled: yes
+    - command: nginx

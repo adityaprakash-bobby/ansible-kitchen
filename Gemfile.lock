@@ -14,8 +14,8 @@ GEM
     kitchen-ansible (0.50.1)
       net-ssh (>= 3)
       test-kitchen (>= 1.4)
-    kitchen-vagrant (0.21.1)
-      test-kitchen (~> 1.4)
+    kitchen-docker (2.9.0)
+      test-kitchen (>= 1.0.0)
     license-acceptance (1.0.13)
       pastel (~> 0.7)
       tomlrb (~> 1.2)
@@ -132,7 +132,7 @@ PLATFORMS
 
 DEPENDENCIES
   kitchen-ansible (~> 0.44)
-  kitchen-vagrant (~> 0.11)
+  kitchen-docker (~> 2.5)
   serverspec (~> 2.36)
   test-kitchen (~> 1.0)
 
